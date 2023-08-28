@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomePageCard({ title, img, link }) {
     return (
-        <div className='h-[420] bg-white'>
+        <div className='h-[420] bg-white z-30 m-3'>
             <div className='text-lg xl:text-xl front-semibold ml-4 mt-4'>
                 {title}
             </div>
