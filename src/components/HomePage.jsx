@@ -1,4 +1,4 @@
-import { Carousel, HomePageCard } from './'
+import { Carousel, HomePageCard, CarouselCategory } from './'
 
 function HomePage() {
   return (
@@ -36,6 +36,7 @@ function HomePage() {
           <img className='xl:hidden' src='../images/banner_image_2.jpg' />
         </div>
       </div>
+      <CarouselCategory />
     </div>
   )
 }
