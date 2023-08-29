@@ -5,7 +5,8 @@ import 'swiper/css/navigation';
 
 function CaroselCategory() {
     return (
-        <div className='bg-white'>
+        <div className='bg-white m-3'>
+            <div className='text-2xl font-semibold p-3'>Shope By Category</div>
             <swiper
                 slidesPerView={5}
                 spaceBetween={10}
