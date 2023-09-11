@@ -1,3 +1,4 @@
+import { Search, second } from './'
 import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 
 function Navigation() {
@@ -12,6 +13,9 @@ function Navigation() {
                     </div>
 
                 </div>
+                <div className='flex grow relative items-center'>
+                    <Search />
+                </div>
                 <div className='flex items-center m-4'>
                     <div className='pr-4 pl-4'>
                         <div className='text-xs xl:text-sm'>Hell, sign in</div>
@@ -22,7 +26,7 @@ function Navigation() {
                         <div className='text-sm xl:test-base font-bold'>& Orders</div>
                     </div>
                     <div className='flex pr-3 pl-3'>
-                        <ShoppingCartIcon className='h-[48px]'/>
+                        <ShoppingCartIcon className='h-[48px]' />
                         <div className='mt-7 text-xs xl:text-sm font-bold'>
                             Cart
                         </div>
